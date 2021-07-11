@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Наши магазины</title>
+
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="shortcut icon" href="images/favicon.ico">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.2.0/css/ion.rangeSlider.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/resp.css" rel="stylesheet" type="text/css">
+	<!--[if IE]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+</head>
+
+<body>
+
+<header class="header">
+	<div class="container">
+		<div class="topheader">
+			<div class="logobox">
+				<a href="home.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="th_rt">
+				<div class="phone_out">
+					<div class="phone"><a href="tel:+88005000515">8 800 500 05 15</a></div>
+					<div class="phone"><a href="tel:+88123327475">8 812 332 74 75</a></div>
+				</div>
+				<div class="shedule sm-hidden">Пн-Пт: с 8:00 до 18:00</div>
+				<div class="choosetown">
+					<div class="town">Оченьдлинныйгородмногосимволов</div>
+					<a href="#" class="btn btn-xs sm-hidden js_towns">Все города</a>
+				</div>
+			</div>
+			<div class="alltowns">
+				<div class="row">
+					<div class="grid2">
+						<div class="townbox">
+							<div class="townbox_letter">А</div>
+							<ul>
+								<li><a href="#">Астрахань</a></li>
+								<li><a href="#">Амур</a></li>
+								<li><a href="#">Аляска</a></li>
+								<li><a href="#">Артем</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Б</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">В</div>
+							<ul>
+								<li><a href="#">Владикавказ</a></li>
+								<li><a href="#">Владивосток</a></li>
+								<li><a href="#">Владикавказ</a></li>
+								<li><a href="#">Воронеж</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Г</div>
+							<ul>
+								<li><a href="#">Гвардейск</a></li>
+								<li><a href="#">Городец</a></li>
+								<li><a href="#">Грозный</a></li>
+								<li><a href="#">Гусев</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Д</div>
+							<ul>
+								<li><a href="#">Далматово</a></li>
+								<li><a href="#">Дзержинск</a></li>
+								<li><a href="#">Дмитриев</a></li>
+								<li><a href="#">Духовщина</a></li>
+							</ul>
+						</div>
+					</div><!-- #grid2 -->
+					<div class="grid2">
+						<div class="townbox">
+							<div class="townbox_letter">Е</div>
+							<ul>
+								<li><a href="#">Екатеринбург</a></li>
+								<li><a href="#">Елизово</a></li>
+								<li><a href="#">Енисейск</a></li>
+								<li><a href="#">Ершов</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Ж</div>
+							<ul>
+								<li><a href="#">Железногорск</a></li>
+								<li><a href="#">Жигулёвск</a></li>
+								<li><a href="#">Жуков</a></li>
+								<li><a href="#">Жуковский</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">З</div>
+							<ul>
+								<li><a href="#">Заозёрск</a></li>
+								<li><a href="#">Звенигород</a></li>
+								<li><a href="#">Зерноград</a></li>
+								<li><a href="#">Златоуст</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">И</div>
+							<ul>
+								<li><a href="#">Иваново</a></li>
+								<li><a href="#">Иркутск</a></li>
+								<li><a href="#">Истра</a></li>
+								<li><a href="#">Йошкар-Ола</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">К</div>
+							<ul>
+								<li><a href="#">Казань</a></li>
+								<li><a href="#">Калининград</a></li>
+								<li><a href="#">Красноярск</a></li>
+								<li><a href="#">Курск</a></li>
+							</ul>
+						</div>
+					</div><!-- #grid2 -->
+					<div class="grid2">
+						<div class="townbox">
+							<div class="townbox_letter">Л</div>
+							<ul>
+								<li><a href="#">Лангепас</a></li>
+								<li><a href="#">Липецк</a></li>
+								<li><a href="#">Луга</a></li>
+								<li><a href="#">Луховицы</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">М</div>
+							<ul>
+								<li><a href="#">Магнитогорск</a></li>
+								<li><a href="#">Мариинск</a></li>
+								<li><a href="#">Москва</a></li>
+								<li><a href="#">Мурманск</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Н</div>
+							<ul>
+								<li><a href="#">Находка</a></li>
+								<li><a href="#">Нефтеюганск</a></li>
+								<li><a href="#">Нижний Новгород</a></li>
+								<li><a href="#">Новосибирск</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">О</div>
+							<ul>
+								<li><a href="#">Обнинск</a></li>
+								<li><a href="#">Омск</a></li>
+								<li><a href="#">Орёл</a></li>
+								<li><a href="#">Оханск</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">П</div>
+							<ul>
+								<li><a href="#">Пенза</a></li>
+								<li><a href="#">Пермь</a></li>
+								<li><a href="#">Петрозаводск</a></li>
+								<li><a href="#">Приморск</a></li>
+							</ul>
+						</div>
+					</div><!-- #grid2 -->
+					<div class="grid2">
+						<div class="townbox">
+							<div class="townbox_letter">Р</div>
+							<ul>
+								<li><a href="#">Раменское</a></li>
+								<li><a href="#">Реутов</a></li>
+								<li><a href="#">Ростов-на-Дону</a></li>
+								<li><a href="#">Рязань</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">С</div>
+							<ul>
+								<li><a href="#">Санкт-Петербург</a></li>
+								<li><a href="#">Саратов</a></li>
+								<li><a href="#">Сергиев Посад</a></li>
+								<li><a href="#">Сургут</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Т</div>
+							<ul>
+								<li><a href="#">Тамбов</a></li>
+								<li><a href="#">Тверь</a></li>
+								<li><a href="#">Тольятти</a></li>
+								<li><a href="#">Томск</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Г</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Д</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+					</div><!-- #grid2 -->
+					<div class="grid2">
+						<div class="townbox">
+							<div class="townbox_letter">А</div>
+							<ul>
+								<li><a href="#">Астрахань</a></li>
+								<li><a href="#">Амур</a></li>
+								<li><a href="#">Аляска</a></li>
+								<li><a href="#">Артем</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Б</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">В</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Г</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Д</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+					</div><!-- #grid2 -->
+					<div class="grid2">
+						<div class="townbox">
+							<div class="townbox_letter">А</div>
+							<ul>
+								<li><a href="#">Астрахань</a></li>
+								<li><a href="#">Амур</a></li>
+								<li><a href="#">Аляска</a></li>
+								<li><a href="#">Артем</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Б</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">В</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Г</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+						<div class="townbox">
+							<div class="townbox_letter">Д</div>
+							<ul>
+								<li><a href="#">Барнаул</a></li>
+								<li><a href="#">Батайск</a></li>
+								<li><a href="#">Балтийск</a></li>
+								<li><a href="#">Белгород</a></li>
+							</ul>
+						</div>
+					</div><!-- #grid2 -->
+				</div><!-- #row -->
+				<a href="#" class="close alltowns_close"></a>
+			</div><!-- #alltowns -->
+		</div><!-- #topheader -->
+
+		<div class="midheader">
+			<a href="#" class="showmenu"></a>
+			<div class="logobox">
+				<a href="home.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="headmenu">
+				<ul>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="news.html">Новости</a></li>
+					<li><a href="info.html">Полезная информация</a></li>
+				</ul>
+				<ul>
+					<li class="active"><a href="actions.html">Акции</a></li>
+					<li><a href="partners.html">Партнерам</a></li>					
+					<li><a href="shops.html">Наши магазины</a></li>
+				</ul>
+			</div>
+			<div class="hboxes">
+				<span class="hbox hbox-user">
+					<span class="hbox_name"><a href="lk.html">Никита Длиннофамильный</a></span>
+					<!--<span class="hbox_val">Активен</span>-->
+					<a href="#" class="logout">Выйти</a>
+				</span>
+				<a href="#" class="hbox hbox-ball">
+					<span class="hbox_name">Баллы</span>
+					<span class="hbox_val">120</span>
+				</a>
+				<a href="basket.html" class="hbox hbox-cart">
+					<span class="hbox_col">
+						<span class="hbox_name">Товаров</span>
+						<span class="hbox_val">6</span>
+					</span>
+					<span class="hbox_col tb-hidden">
+						<span class="hbox_name">Сумма</span>
+						<span class="hbox_val">25 000 руб.</span>
+					</span>
+				</a>
+			</div><!-- #hboxes -->
+		</div><!-- #midheader -->
+
+		<div class="botheader">
+			<div class="catwin_outer">
+				<a href="catalog.html" class="btn btn-lg btn-cat">Каталог<i> продукции</i></a>
+				<div class="catwin">
+					<div class="catwin_row">
+						<div class="catwin_col">
+							<ul>
+								<li><a href="#">Товары по акции</a></li>
+								<li><a href="#">Комплекты Триколор ТВ</a></li>
+								<li><a href="#">Умный Дом</a></li>
+								<li><a href="#">Солнечная энергетика</a></li>
+								<li><a href="#">Спутниковое ТВ</a></li>
+								<li><a href="#">Эфирное ТВ</a></li>
+								<li><a href="#">Интернет</a></li>
+							</ul>
+						</div>
+						<div class="catwin_col">
+							<ul>
+								<li><a href="#">Устройства усиления и маршрутизации сигнала</a></li>
+								<li><a href="#">Безопасность</a></li>
+								<li><a href="#">Кабели и шнуры</a></li>
+								<li><a href="#">Элементы кабельной разводки</a></li>
+								<li><a href="#">Дилерам Триколор ТВ</a></li>
+								<li><a href="#">Освещение и электротовары</a></li>
+							</ul>
+						</div>
+						<div class="catwin_col">
+							<ul>
+								<li><a href="#">Кронштейны и полки</a></li>
+								<li><a href="#">Игровые приставки</a></li>
+								<li><a href="#">Климатическая техника</a></li>
+								<li><a href="#">Рекламная и сувенирная продукция</a></li>
+								<li><a href="#">Сезонные товары</a></li>
+								<li><a href="#">Устройства хранения данных</a></li>
+								<li><a href="#">Бонусные комплекты</a></li>
+							</ul>
+						</div>
+					</div>
+					<a href="#" class="close catwin_close"></a>
+				</div><!-- #catwin -->
+			</div><!-- /catwin_outer -->
+			<div class="search">
+				<form action="#" method="post">
+					<input type="text" name="search" class="search_input" placeholder="Поиск по каталогу">
+					<input type="submit" class="btn btn-red btn-lg" value="Найти">
+				</form>
+			</div><!-- #search -->
+		</div><!-- #botheader -->
+
+	</div><!-- #container -->
+</header><!-- #Header -->
+
+
+<div class="container middle">
+
+	<div class="breadcrumbs">
+		<div class="breadcrumbs_text">
+			<a href="home.html">Главная</a> /
+		</div>
+		<div class="pagetitle">Наши магазины</div>
+	</div><!-- #breadcrumbs -->
+
+
+	<div class="notify">Доставка временно не осуществляется, доступен только самовывоз</div>
+
+
+	<div class="row shopInfo_row">
+		<div class="grid8 md12">
+			<div class="pagetitle2">Центральный офис</div>
+			<div class="shopInfo">
+				<div class="row shopInfo_row">
+					<div class="grid4 sm12 shopInfo_phones">
+						<small>Клиентский отдел:</small>
+						<div class="phone red"><a href="tel:88005000515">8 (800) 500-05-15</a></div>
+					</div>
+					<div class="grid4 sm12 shopInfo_phones">
+						<small>Отдел персонала:</small>
+						<div class="phone red"><a href="tel:89811749334">8 (981) 174-93-34</a></div>
+					</div>
+					<div class="grid4 sm12 shopInfo_phones">
+						<small>Электронная почта:</small>
+						<div class="phone mail"><a href="mailto:help@n-l-e.ru">help@n-l-e.ru</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="grid4 md12">
+			<div class="pagetitle2">Ваш склад-магазин</div>
+			<div class="shopInfo">
+				<div class="shopInfo_title">СК МСК 4 Ленинградка</div>
+				125445, Москва, Ленинградское ш., дом № 65<br>
+				8 (499) 642-83-46; 642-83-47
+			</div>
+		</div>
+	</div><!-- #row -->
+
+	<div class="shopsMap">
+		
+		<!-- API Карта начало -->
+		<div class="map">
+			<div id="myMap"></div>
+		</div>
+
+		<div class="filial_shops" lan="64.558058" lot="40.577692"><div class="title"><a href="/filial/index/id/281/">СК Архангельск</a></div></div>
+		<div class="filial_shops" lan="46.366721" lot="48.046411"><div class="title"><a href="/filial/index/id/282/">СК Астрахань</a></div></div>
+		<div class="filial_shops" lan="53.382034" lot="83.685058"><div class="title"><a href="/filial/index/id/283/">СК Барнаул</a></div></div>
+		<div class="filial_shops" lan="50.587563" lot="36.654093"><div class="title"><a href="/filial/index/id/284/">СК Белгород</a></div></div>
+		<div class="filial_shops" lan="44.788271" lot="44.185874"><div class="title"><a href="/filial/index/id/285/">СК Буденновск</a></div></div>
+		<div class="filial_shops" lan="48.761483713658" lot="44.527948099133"><div class="title"><a href="/filial/index/id/286/">СК Волгоград</a></div></div>
+		<div class="filial_shops" lan="47.519174591975" lot="42.157019812161"><div class="title"><a href="/filial/index/id/287/">СК Волгодонск</a></div></div>
+		<div class="filial_shops" lan="51.687461" lot="39.191277"><div class="title"><a href="/filial/index/id/288/">СК Воронеж</a></div></div>
+		<div class="filial_shops" lan="56.842670076732" lot="60.667320084653"><div class="title"><a href="/filial/index/id/289/">СК Екатеринбург</a></div></div>
+		<div class="filial_shops" lan="56.832520790791" lot="53.259494203705"><div class="title"><a href="/filial/index/id/290/">СК Ижевск</a></div></div>
+		<div class="filial_shops" lan="52.317359" lot="104.289347"><div class="title"><a href="/filial/index/id/291/">СК Иркутск</a></div></div>
+		<div class="filial_shops" lan="55.779459" lot="49.173285"><div class="title"><a href="/filial/index/id/292/">СК Казань</a></div></div>
+		<div class="filial_shops" lan="54.680899" lot="20.504046"><div class="title"><a href="/filial/index/id/339/">СК Калининград</a></div></div>
+		<div class="filial_shops" lan="55.310493" lot="86.035616"><div class="title"><a href="/filial/index/id/340/">СК Кемерово</a></div></div>
+		<div class="filial_shops" lan="58.56351" lot="49.601664"><div class="title"><a href="/filial/index/id/341/">СК Киров</a></div></div>
+		<div class="filial_shops" lan="45.025374" lot="39.060707"><div class="title"><a href="/filial/index/id/342/">СК Краснодар</a></div></div>
+		<div class="filial_shops" lan="56.071137" lot="92.932998"><div class="title"><a href="/filial/index/id/343/">СК Красноярск</a></div></div>
+		<div class="filial_shops" lan="51.709935" lot="36.149357"><div class="title"><a href="/filial/index/id/313/">СК Курск</a></div></div>
+		<div class="filial_shops" lan="52.581283" lot="39.537155"><div class="title"><a href="/filial/index/id/314/">СК Липецк</a></div></div>
+		<div class="filial_shops" lan="53.430115" lot="58.994781"><div class="title"><a href="/filial/index/id/315/">СК Магнитогорск</a></div></div>
+		<div class="filial_shops" lan="55.908959" lot="37.779907"><div class="title"><a href="/filial/index/id/331/">СК МСК 2 Ярославское шоссе</a></div></div>
+		<div class="filial_shops" lan="55.611002" lot="37.615048"><div class="title"><a href="/filial/index/id/332/">СК МСК 3 Подольских Курсантов</a></div></div>
+		<div class="filial_shops" lan="55.866187" lot="37.459658"><div class="title"><a href="/filial/index/id/329/">СК МСК 4 Ленинградка</a></div></div>
+		<div class="filial_shops" lan="68.989768953989" lot="33.062880624267"><div class="title"><a href="/filial/index/id/484/">СК Мурманск</a></div></div>
+		<div class="filial_shops" lan="56.27202" lot="43.919829"><div class="title"><a href="/filial/index/id/316/">СК Н.Новгород</a></div></div>
+		<div class="filial_shops" lan="44.727543" lot="37.742088"><div class="title"><a href="/filial/index/id/317/">СК Новороссийск</a></div></div>
+		<div class="filial_shops" lan="55.102601" lot="82.976134"><div class="title"><a href="/filial/index/id/318/">СК Новосибирск</a></div></div>
+		<div class="filial_shops" lan="55.063643" lot="73.276242"><div class="title"><a href="/filial/index/id/319/">СК Омск</a></div></div>
+		<div class="filial_shops" lan="51.798537049967" lot="55.081249730163"><div class="title"><a href="/filial/index/id/320/">СК Оренбург</a></div></div>
+		<div class="filial_shops" lan="53.236405" lot="45.01934"><div class="title"><a href="/filial/index/id/321/">СК Пенза</a></div></div>
+		<div class="filial_shops" lan="58.026996" lot="56.288678"><div class="title"><a href="/filial/index/id/322/">СК Пермь</a></div></div>
+		<div class="filial_shops" lan="44.065386" lot="42.983811"><div class="title"><a href="/filial/index/id/323/">СК Пятигорск</a></div></div>
+		<div class="filial_shops" lan="47.263867855558" lot="39.775136952392"><div class="title"><a href="/filial/index/id/324/">СК Ростов</a></div></div>
+		<div class="filial_shops" lan="53.306234" lot="50.291211"><div class="title"><a href="/filial/index/id/325/">СК Самара</a></div></div>
+		<div class="filial_shops" lan="51.559251624984" lot="46.003190915344"><div class="title"><a href="/filial/index/id/326/">СК Саратов</a></div></div>
+		<div class="filial_shops" lan="54.786233" lot="32.008869"><div class="title"><a href="/filial/index/id/327/">СК Смоленск</a></div></div>
+		<div class="filial_shops" lan="43.620391" lot="39.747496"><div class="title"><a href="/filial/index/id/328/">СК Сочи</a></div></div>
+		<div class="filial_shops" lan="59.858277" lot="30.478158"><div class="title"><a href="/filial/index/id/333/">СК СПб2 Обухово</a></div></div>
+		<div class="filial_shops" lan="45.064158" lot="42.000776"><div class="title"><a href="/filial/index/id/265/">СК Ставрополь</a></div></div>
+		<div class="filial_shops" lan="61.690846" lot="50.799639"><div class="title"><a href="/filial/index/id/485/">СК Сыктывкар</a></div></div>
+		<div class="filial_shops" lan="52.735355" lot="41.414095"><div class="title"><a href="/filial/index/id/266/">СК Тамбов</a></div></div>
+		<div class="filial_shops" lan="56.838346" lot="35.808042"><div class="title"><a href="/filial/index/id/330/">СК Тверь</a></div></div>
+		<div class="filial_shops" lan="56.511401" lot="85.010755"><div class="title"><a href="/filial/index/id/267/">СК Томск</a></div></div>
+		<div class="filial_shops" lan="54.173574" lot="37.617662"><div class="title"><a href="/filial/index/id/268/">СК Тула</a></div></div>
+		<div class="filial_shops" lan="57.20091" lot="65.604109"><div class="title"><a href="/filial/index/id/269/">СК Тюмень</a></div></div>
+		<div class="filial_shops" lan="51.831431" lot="107.622178"><div class="title"><a href="/filial/index/id/506/">СК Улан-Удэ</a></div></div>
+		<div class="filial_shops" lan="54.336933" lot="48.534951"><div class="title"><a href="/filial/index/id/270/">СК Ульяновск</a></div></div>
+		<div class="filial_shops" lan="54.78318" lot="56.060883"><div class="title"><a href="/filial/index/id/271/">СК Уфа</a></div></div>
+		<div class="filial_shops" lan="48.505522" lot="135.146531"><div class="title"><a href="/filial/index/id/509/">СК Хабаровск</a></div></div>
+		<div class="filial_shops" lan="56.151963" lot="47.195706"><div class="title"><a href="/filial/index/id/272/">СК Чебоксары</a></div></div>
+		<div class="filial_shops" lan="55.123008" lot="61.499841"><div class="title"><a href="/filial/index/id/273/">СК Челябинск</a></div></div>
+		<div class="filial_shops" lan="57.641664" lot="39.830806"><div class="title"><a href="/filial/index/id/274/">СК Ярославль</a></div></div>
+		<!-- API Карта конец -->
+
+	</div><!-- #shopsMap -->
+
+	<div class="pagetitle2">Все города</div>
+	<div class="ordertab">
+		<div class="ordertab_tr">
+			<div class="ordertab_cl">СК Архангельск</div>
+			<div class="ordertab_cl">163045,г. Архангельск, Окружное шоссе, 13, стр.1, эт.1</div>
+			<div class="ordertab_cl">
+				<div class="phone">8 (8182) 63-58-17</div>
+			</div>
+		</div>
+		<div class="ordertab_tr">
+			<div class="ordertab_cl">СК Архангельск</div>
+			<div class="ordertab_cl">163045,г. Архангельск, Окружное шоссе, 13, стр.1, эт.1</div>
+			<div class="ordertab_cl">
+				<div class="phone">8 (8182) 63-58-17</div>
+			</div>
+		</div>
+		<div class="ordertab_tr">
+			<div class="ordertab_cl">СК Архангельск</div>
+			<div class="ordertab_cl">163045,г. Архангельск, Окружное шоссе, 13, стр.1, эт.1</div>
+			<div class="ordertab_cl">
+				<div class="phone">8 (8182) 63-58-17</div>
+			</div>
+		</div>
+		<div class="ordertab_tr">
+			<div class="ordertab_cl">СК Архангельск</div>
+			<div class="ordertab_cl">163045,г. Архангельск, Окружное шоссе, 13, стр.1, эт.1</div>
+			<div class="ordertab_cl">
+				<div class="phone">8 (8182) 63-58-17</div>
+			</div>
+		</div>
+		<div class="ordertab_tr">
+			<div class="ordertab_cl">СК Архангельск</div>
+			<div class="ordertab_cl">163045,г. Архангельск, Окружное шоссе, 13, стр.1, эт.1</div>
+			<div class="ordertab_cl">
+				<div class="phone">8 (8182) 63-58-17</div>
+			</div>
+		</div>
+	</div><!-- #ordertab -->
+	
+</div><!-- #container -->
+
+
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+	
+	ymaps.ready(init);
+
+    function init () {			
+		l = 'Россия';
+		z = 2.7;
+
+		ymaps.geocode(l, {results: 1}).then(function (res) {
+			if (res.geoObjects.getLength()) {
+				var point = [56.136, 40.390];
+				point = res.geoObjects.get(0).geometry.getCoordinates();
+				
+				var myMap = new ymaps.Map('myMap', {
+					center: point,
+					zoom: z
+				});
+
+				// Для добавления элемента управления на карту
+				// используется поле controls, ссылающееся на
+				// коллекцию элементов управления картой.
+				// Добавление элемента в коллекцию производится
+				// с помощью метода add().
+
+				// В метод add можно передать строковый идентификатор
+				// элемента управления и его параметры.
+				myMap.controls
+					// Кнопка изменения масштаба
+					.add('zoomControl')
+					// Список типов карты
+					.add('typeSelector');
+
+				// Также в метод add можно передать экземпляр класса, реализующего определенный элемент управления.
+				// Например, линейка масштаба ('scaleLine')
+				myMap.controls
+					.add(new ymaps.control.ScaleLine())
+					// В конструкторе элемента управления можно задавать расширенные
+					// параметры, например, тип карты в обзорной карте
+					.add(new ymaps.control.MiniMap({
+						type: 'yandex#publicMap'
+					}));
+					
+				$('.filial_shops').each(function(i, v) {
+					myPlacemark = new ymaps.Placemark([parseFloat($(this).attr('lan')), parseFloat($(this).attr('lot'))], {
+							balloonContentHeader: $('.title', this).html(),
+							/* balloonContentBody: $('content', this).html() */
+						});			
+					myMap.geoObjects
+						.add(myPlacemark);		
+				});	
+			}
+		});				
+    }		
+</script>
+
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="row footrow">
+			<div class="grid20 tb3 sm-hidden footbox">
+				<div class="footbox_title"><a href="#">Главная</a></div>
+				<ul>
+					<li><a href="#">Акции</a></li>
+					<li><a href="#">Партнерам</a></li>
+					<li><a href="#">Наши магазины</a></li>
+				</ul>
+			</div><!-- #grid20 -->
+			<div class="grid20 tb3 sm-hidden footbox">
+				<div class="footbox_title"><a href="#">Партнерам</a></div>
+				<ul>
+					<li><a href="#">Пользовательское соглашение</a></li>
+					<li><a href="#">Политика конфиденциальности</a></li>
+					<li><a href="#">Дилерам</a></li>
+					<li><a href="#">Поставщикам</a></li>
+					<li><a href="#">Как стать дилером</a></li>
+				</ul>
+			</div><!-- #grid20 -->
+			<div class="grid20 tb3 sm-hidden footbox">
+				<div class="footbox_title"><a href="#">Клиентам</a></div>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Полезная информация</a></li>
+				</ul>
+			</div><!-- #grid20 -->
+			<div class="grid20 tb3 sm-hidden footbox">
+				<div class="footbox_title"><a href="#">Контакты</a></div>
+				<ul>
+					<li><a href="#">Клиентский отдел</a></li>
+					<li><a href="#">Отдел персонала</a></li>
+					<li><a href="#">Ваш склад</a></li>
+				</ul>
+			</div><!-- #grid20 -->
+			<div class="grid20 tb12 footbox text-right">
+				<div class="phone"><a href="tel:+88005000515">8 800 500 05 15</a></div>
+				<div class="phone"><a href="tel:+88123327475">8 812 332 74 75</a></div>
+				<div class="clear"></div>
+				Пн-Пт: с 8:00 до 18:00
+				<div class="social">
+					<a href="#"><img src="images/telegram.svg" alt=""></a>
+					<a href="#"><img src="images/viber.svg" alt=""></a>
+					<a href="#"><img src="images/vk-nle.svg" alt=""></a>
+					<a href="#"><img src="images/instagram-logo.svg" alt=""></a>
+					<a href="#"><img src="images/fb-nle.svg" alt=""></a>
+				</div>
+			</div><!-- #grid20 -->
+		</div><!-- #row -->
+		<div class="clearfix">
+			<div class="copyright">
+				<a href="#" class="conf">Политика конфиденциальности</a>
+				<span>&copy; NoLimit Electronics</span>
+			</div>
+			<div class="dpromo">
+				<a href="http://dpromo.su"><img src="images/dpromo.png" alt="" srcset="images/dpromo-2x.png 2x"></a>
+			</div>
+		</div><!-- #clearfix -->
+	</div>
+</footer><!-- #Footer -->
+
+
+<div class="cartsuc">
+	<div class="cartsuc_title">Товар добавлен в корзину!</div>
+	<div class="cartsuc_icon"><b>1</b></div>
+	<div class="cartsuc_val"><a href="product.html">+ ОТТ спутниковый приемник-шлюз Neotion Pro Lite (1)</a></div>
+	<a href="#" class="cancel cartsuc_close"></a>
+</div><!-- #cartsuc -->
+
+
+<div class="cartsuc_text">
+	Для продолжения <a href="#">авторизируйтесь</a> или <a href="signup.html">зарегистрируйтесь</a>.
+	<a href="#" class="cancel cartsuc_close"></a>
+</div><!-- #cartsuc -->
+
+
+<div class="info_popup">
+	<div class="info_popup-title">Информационное сообщение</div>
+	<div class="info_popup-text">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non accusantium, ipsam quae magni ea vel, laborum veniam optio reiciendis beatae.</p>
+		<p>Ipsam natus, doloribus reprehenderit suscipit. Voluptates unde officiis quam, dolore ad, similique odio ipsum, dolor rem enim eius. Molestiae, neque!</p>
+	</div>
+	<a href="#" class="cancel"></a>
+</div><!-- #info_popup -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.2.0/js/ion.rangeSlider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.3.1/jquery.placeholder.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
